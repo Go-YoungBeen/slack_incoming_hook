@@ -1,7 +1,7 @@
 name: send message
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   send-message:
@@ -22,3 +22,4 @@ jobs:
           java Bot
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+         

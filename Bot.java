@@ -8,7 +8,7 @@ public class Bot {
         // 이게 있어야 이 클래스를 실행했을 때 작동을 함
         // 웹훅을 만들 거임 -> URL 필요함
         // 환경변수로 받아올 것임 -> yml 파일에서 전달하게
-        String webhookUrl = System.getenv("https://hooks.slack.com/services/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");
+        String webhookUrl = System.getenv("SLACK_WEBHOOK_URL");
 
         // Java 11 -> fetch
         HttpClient client = HttpClient.newHttpClient();

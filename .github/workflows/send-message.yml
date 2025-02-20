@@ -21,4 +21,4 @@ jobs:
           javac Bot.java
           java Bot
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.https://hooks.slack.com/services/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 }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
